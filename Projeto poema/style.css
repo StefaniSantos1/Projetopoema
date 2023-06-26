@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* fundo gradiente */
+    background-image: linear-gradient(to top,gray, white, black);
+}
+header{
+    background-color: white;
+    padding: 27px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 17px black;
+}
+main{
+    width: 85%;
+    background-color: rgb(174, 232, 255);
+    margin: auto;
+    padding: 30px;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 4px 4px 20px black;
+    text-align: center;
+}
+footer{
+    border-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px;
+    margin: 40px 0px 0px 0px;
+    box-shadow: 3px 3px 12px black;
+}
+header > h1{
+    font: normal bold 45px 'arial';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 15px black;
+}
+header > ul{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+}
+header > nav > ul{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+}
+header > nav > ul > li > a{
+    font: normal bold 25px 'arial';
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 10px 35px;
+    padding: 15px;
+    transition-duration: 0.7s;
+}
+header > nav > ul > li > a:hover{
+    padding: 20px;
+    font: normal bold 37px 'arial';
+    text-decoration: underline;
+    color: rgb(0, 0, 170)
+}
+main > section{
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 17px black;
+    margin: 20px 15px;
+}
+main > section > h1{
+    font: normal bold 30px 'arial';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+main > section > p{
+    font: normal bold 25px 'arial';
+    text-align: justify;
+    color: black;
+}
+main > section > a{
+    font: normal bold 25px 'arial';
+    text-align: center;
+    color: black;
+    background-color:rgb(123, 123, 180);
+    border-radius: 17px;
+    text-decoration: none;
+    padding: 20px;
+    transition-duration: 0.7s;
+}
+main > section > a:hover{
+    padding: 25px;
+    font: normal bold 35px 'arial';
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 156, 212);
+    text-decoration: underline;
+}
+footer > h1{
+    font: normal bold 35px 'arial';
+    color: black;
+    text-align: center;
+}
+footer > h1 > a{
+    color: rgb(89, 0, 233);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+footer > h1 >a:hover{
+    padding: 20px;
+    font: normal bold 55px 'arial';
+    color: white;
+    background-color:  rgb(107, 156, 212);
+    border-radius: 20px;
+}

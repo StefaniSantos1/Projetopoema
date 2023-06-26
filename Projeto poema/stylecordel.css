@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* fundo gradiente */
+    background-image: linear-gradient(to top,gray, white, rgb(0, 0, 0));
+}
+header{
+    background-color: white;
+    padding: 27px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 17px black;
+}
+header > h1{
+    font: normal bold 45px 'arial';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 15px black;
+}
+header > ul{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+}
+header > nav > ul{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+}
+header > nav > ul > li > a{
+    font: normal bold 25px 'arial';
+    text-align: center;
+    color: black;
+    text-decoration: nome;
+    margin: 10px 35px;
+    padding: 15px;
+    transition-duration: 0.7s;
+}
+header > nav > ul > li > a:hover{
+    padding: 20px;
+    font: normal bold 37px 'arial';
+    text-decoration: underline;
+    color: rgb(0, 0, 170)
+}
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+main > section{
+    padding: 30px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(197, 224, 236);
+    margin: 0px 15px;
+    text-align: left;
+}
+main > section>p{
+    font: normal bold 30px 'arial';
+    color: black
+}
+main > .section_img>p:hover{
+    font: normal bold 30px 'arial';
+    color: white;
+    transition-duration: 0.7s;
+}
+main > .section>p:hover{
+    text-shadow: 3px 3px 15px rgb(10, 91, 197);
+    font-size: 35px;
+}
+main > .section_img{
+     /*  para classes = atributos */
+    border-radius: 20px 20px 0px 0px;
+    background: rgb(0, 0, 0) url('patativa-do-assare.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 30px;
+    margin: 0px 15px;
+    text-align: left;
+}
+footer{
+    border-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px;
+    margin: 40px 0px 0px 0px;
+    box-shadow: 3px 3px 12px black;
+}
+footer > h1{
+    font: normal bold 35px 'arial';
+    color: black;
+    text-align: center;
+}
+footer > h1 > a{
+    color: rgb(89, 0, 233);
+    text-decoration: nome;
+    transition-duration: 0.5s;
+}
+footer > h1 >a:hover{
+    padding: 20px;
+    font: normal bold 55px 'arial';
+    color:white;
+    background-color:rgb(107, 156, 212);
+    border-radius: 20px;
+}
